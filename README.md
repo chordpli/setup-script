@@ -1,4 +1,4 @@
-# Setup-AI
+# setup-script
 
 [English](#english) | [한국어](#한국어)
 
@@ -8,7 +8,7 @@
 
 ### Overview
 
-Setup-AI provides simple installation scripts for popular AI services. No development experience required — just run the script and follow the prompts.
+setup-script provides simple installation scripts for popular AI services. No development experience required — just run the script and follow the prompts.
 
 ### Features
 
@@ -40,48 +40,48 @@ Copy and paste the command for the service you want. No downloads or setup neede
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/claude-code/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/claude-code/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/claude-code/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/claude-code/install.ps1 | iex
 ```
 
 **ChatGPT / Codex:**
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/chatgpt-codex/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/chatgpt-codex/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/chatgpt-codex/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/chatgpt-codex/install.ps1 | iex
 ```
 
 **Gemini CLI:**
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/gemini-cli/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/gemini-cli/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/gemini-cli/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/gemini-cli/install.ps1 | iex
 ```
 
 **iTerm2** (macOS only):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/iterm/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/iterm/install.sh | bash
 ```
 
 ### Project Structure
 
 ```
-Setup-AI/
+setup-script/
 └── scripts/
     ├── claude-code/
     │   ├── install.sh      # macOS / Linux
@@ -110,7 +110,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ### 개요
 
-Setup-AI는 주요 AI 서비스를 간편하게 설치할 수 있는 스크립트를 제공합니다. 개발 경험이 없어도 스크립트를 실행하고 안내를 따르기만 하면 됩니다.
+setup-script는 주요 AI 서비스를 간편하게 설치할 수 있는 스크립트를 제공합니다. 개발 경험이 없어도 스크립트를 실행하고 안내를 따르기만 하면 됩니다.
 
 ### 주요 기능
 
@@ -142,48 +142,48 @@ Setup-AI는 주요 AI 서비스를 간편하게 설치할 수 있는 스크립�
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/claude-code/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/claude-code/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/claude-code/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/claude-code/install.ps1 | iex
 ```
 
 **ChatGPT / Codex:**
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/chatgpt-codex/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/chatgpt-codex/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/chatgpt-codex/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/chatgpt-codex/install.ps1 | iex
 ```
 
 **Gemini CLI:**
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/gemini-cli/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/gemini-cli/install.sh | bash
 ```
 
 ```powershell
 # Windows (PowerShell)
-irm https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/gemini-cli/install.ps1 | iex
+irm https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/gemini-cli/install.ps1 | iex
 ```
 
 **iTerm2** (macOS 전용):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/chordpli/Setup-AI/main/scripts/iterm/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chordpli/setup-script/main/scripts/iterm/install.sh | bash
 ```
 
 ### 프로젝트 구조
 
 ```
-Setup-AI/
+setup-script/
 └── scripts/
     ├── claude-code/
     │   ├── install.sh      # macOS / Linux
