@@ -11,6 +11,11 @@ Thumbs.db
 
 # Claude Code
 .omc/
+.claude/skills/speckit-*
+.claude/skills/skill-creator/
+
+# Specify
+.specify/
 
 # Logs
 *.log
